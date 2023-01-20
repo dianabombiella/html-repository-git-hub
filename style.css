@@ -102,3 +102,11 @@ h1 {
   width: 80%;
   text-align: center;
 }
+
+
+.site-title {
+  font-size: 28px;
+  font-size: 2.8rem;
+  color: #737171;
+  text-transform: uppercase;
+}
