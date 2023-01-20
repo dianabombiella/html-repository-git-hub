@@ -335,43 +335,7 @@ header nav li {
 	.hero a.btn {
 		padding: 15px 40px;
 	}
-}
 
-/*Footer Section*/
-.site-footer {
-  background:#646469
-}
-
-#footer-content {
-  background: #646469
-}
-#footer{
-  height:100%;
-  width: 100%;
-  background: #646469;
-  margin-top:100px;
-}
-
-
-#footer h3{
-  color:#212121;
-  text-align:center;
-  font-size:17px;
-  letter-spacing:2px;
-  padding:10px;
-  
-  
-}
-
-/*Destinations Section*/
-
-.destinations .grid li {
-	height: 350px;
-	padding: 10px;
-	background-clip: content-box;
-	background-size: cover;
-	background-position: center;
-}
 
 <style>
                             
