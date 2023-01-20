@@ -363,6 +363,16 @@ header nav li {
   
 }
 
+/*Destinations Section*/
+
+.destinations .grid li {
+	height: 350px;
+	padding: 10px;
+	background-clip: content-box;
+	background-size: cover;
+	background-position: center;
+}
+
 <style>
                             
 </style>
