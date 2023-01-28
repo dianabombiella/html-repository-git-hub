@@ -18,6 +18,7 @@ html {
 ul,
 nav {
 	list-style: none;
+	position: sticky; top: 0;
 }
 
 a {
@@ -135,6 +136,7 @@ header h2 {
 header nav {
 	display: flex;
 	margin-right: -15px;
+	position: sticky; top: 0;
 }
 
 header nav li {
