@@ -437,7 +437,7 @@ footer p {
    transform: translateX(200px);
 }
 
-.tile h22
+.tile h2
 {@media only screen and (min-width: 768px) {
   div {
   display: none;
