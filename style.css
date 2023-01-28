@@ -3,7 +3,7 @@
 * {
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
+	box-sizing: none;
 }
 
 html {
@@ -371,9 +371,7 @@ footer p {
 ////////
 
 
-}
-
-.body
+body
 {
   background-color:#eee
 }
@@ -399,7 +397,7 @@ footer p {
   box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.44);
   overflow:hidden;
   color:white;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family:'Roboto';
   
 }
 .tile img
@@ -516,4 +514,3 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
    flex-direction: column;
     width:400px;
   }
-}
