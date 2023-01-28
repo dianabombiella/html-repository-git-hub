@@ -437,16 +437,8 @@ footer p {
    transform: translateX(200px);
 }
 
-.tile h2
-{@media only screen and (min-width: 768px) {
-  div {
-  display: none;
-  font-weight:100;
-  margin:20px 0 0 0;
-  font-style:italic;
-}
-	
-	
+
+		
 .tile p
 {
   font-weight:300;
