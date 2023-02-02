@@ -403,7 +403,7 @@ footer p {
   background-size:cover;
   position:relative;
   cursor:pointer;
-  transition: all 0.4s ease-out;
+  transition: none;
   box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.44);
   overflow:hidden;
   color:white;
@@ -418,7 +418,7 @@ footer p {
   top:0;
   left:0;
   z-index:0;
-  transition: all 0.4s ease-out;
+  transition: none;
 }
 .tile .text
 {
@@ -439,7 +439,7 @@ footer p {
   font-weight:100;
   margin:20px 0 0 0;
   font-style:italic;
-   transform: translateX(200px);
+   transform: none;
 }
 
 
@@ -450,13 +450,13 @@ footer p {
   margin:20px 0 0 0;
   line-height: 25px;
 /*   opacity:0; */
-  transform: translateX(-200px);
-  transition-delay: 0.2s;
+  transform: none;
+  transition-delay: none;
 }
 .animate-text
 {
   opacity:0;
-  transition: all 0.6s ease-in-out;
+  transition: none;
 }
 .tile:hover
 {
@@ -470,7 +470,7 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
 }
 .tile:hover .animate-text
 {
-  transform:translateX(0);
+  transform: none;
   opacity:1;
 }
 .dots
@@ -497,15 +497,15 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
     border-radius: 50%;
     display:block;
   opacity:0;
-  transition: transform 0.4s ease-out, opacity 0.5s ease;
-  transform: translateY(30px);
+  transition:none;
+  transform: none;
  
 }
 
 .tile:hover span
 {
   opacity:1;
-  transform:translateY(0px);
+  transform:none;
 }
 
 .dots span:nth-child(1)
@@ -514,11 +514,11 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
 }
 .dots span:nth-child(2)
 {
-   transition-delay: 0.1s;
+   transition-delay: none;
 }
 .dots span:nth-child(3)
 {
-   transition-delay: 0.15s;
+   transition-delay: none;
 }
 
 
