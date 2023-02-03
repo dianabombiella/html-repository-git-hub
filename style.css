@@ -20,7 +20,7 @@
   display:inline-block;
   background-size:cover;
   position:relative;
-  cursor:none;
+  cursor:hover;
   transition: all 0.4s ease-out;
   box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.44);
   overflow:hidden;
@@ -57,7 +57,12 @@
   font-weight:100;
   margin:20px 0 0 0;
   font-style:italic;
-   transform: translateX(200px);
+   0% {
+		transform: scale(0, .025);
+	}
+	50% {
+		transform: scale(1, .025);
+	}
 }
 
 
@@ -68,7 +73,12 @@
   margin:20px 0 0 0;
   line-height: 25px;
 /*   opacity:0; */
-  transform: translateX(-200px);
+  0% {
+		transform: scale(0, .025);
+	}
+	50% {
+		transform: scale(1, .025);
+	}
   transition-delay: 0.2s;
 }
 .animate-text
@@ -80,7 +90,12 @@
 {
 /*   background-color:#99aeff; */
 box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
-  transform:scale(1.05);
+  0% {
+		transform: scale(0, .025);
+	}
+	50% {
+		transform: scale(1, .025);
+	}
 }
 .tile:hover img
 {
@@ -146,21 +161,7 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
     width:400px;
 	   /* we want to absolute positioning the menu, checkbox and label element to its parent, so this is needed */
     position:relative;
-	  .tile
-  width:380px;
-  height:380px;
-  margin:10px;
-  background-color:#99aeff;
-  display:inline-block;
-  background-size:cover;
-  position:relative;
-  cursor:none;
-  transition: none;
-  box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.44);
-  overflow:hidden;
-  color:white;
-  font-family: "Roboto Condensed", sans-serif;
-  
+ 
 }
   }
   }
