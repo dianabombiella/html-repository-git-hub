@@ -19,7 +19,7 @@
   background-color:#99aeff;
   display:inline-block;
   background-size:cover;
-  position:relative;
+  position:absolute;
   cursor:hover;
   0% {
 		transform: scale(0, .025);
@@ -78,19 +78,21 @@
   margin:20px 0 0 0;
   line-height: 25px;
 /*   opacity:0; */
- transform:translateX(0);
-  opacity:1;
+ display:inline-block;
+  background-size:cover;
+  position:relative;
 }
 .animate-text
 {
-  opacity:1;
-  transform:translateX(0);
+  display:inline-block;
+  background-size:cover;
+  position:relative;
 }
 .tile:hover
 {
-/*   background-color:#99aeff; */
-box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
-  transform:scale(1.05);
+display:inline-block;
+  background-size:cover;
+  position:relative;
 }
 
 }
@@ -100,8 +102,9 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
 }
 .tile:hover .animate-text
 {
-  transform:translateX(0);
-  opacity:1;
+ display:inline-block;
+  background-size:cover;
+  position:relative;
 }
 .dots
 {
