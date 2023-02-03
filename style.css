@@ -67,12 +67,7 @@
   font-weight:100;
   margin:20px 0 0 0;
   font-style:italic;
-   0% {
-		transform: scale(0, .025);
-	}
-	50% {
-		transform: scale(1, .025);
-	}
+   transform: translateX(200px);
 }
 
 
@@ -83,29 +78,21 @@
   margin:20px 0 0 0;
   line-height: 25px;
 /*   opacity:0; */
-  0% {
-		transform: scale(0, .025);
-	}
-	50% {
-		transform: scale(1, .025);
-	}
-  transition-delay: 0.2s;
+ transform:translateX(0);
+  opacity:1;
 }
 .animate-text
 {
-  opacity:0;
-  transition: all 0.6s ease-in-out;
+  opacity:1;
+  transform:translateX(0);
 }
 .tile:hover
 {
 /*   background-color:#99aeff; */
 box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
-  0% {
-		transform: scale(0, .025);
-	}
-	50% {
-		transform: scale(1, .025);
-	}
+  transform:scale(1.05);
+}
+
 }
 .tile:hover img
 {
@@ -113,7 +100,7 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
 }
 .tile:hover .animate-text
 {
-  transform:disable;
+  transform:translateX(0);
   opacity:1;
 }
 .dots
@@ -140,8 +127,7 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
     border-radius: 50%;
     display:block;
   opacity:0;
-  transition: transform 0.4s ease-out, opacity 0.5s ease;
-  transform: translateY(30px);
+  transform:translateX(0);
  
 }
 
@@ -171,6 +157,8 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
     width:400px;
 	   /* we want to absolute positioning the menu, checkbox and label element to its parent, so this is needed */
     position:relative;
+   
+}
  
 }
   }
