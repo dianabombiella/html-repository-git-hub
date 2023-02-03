@@ -1,4 +1,12 @@
 
+tara haun 
+pass GC 3 PM 
+
+GAS AND POWER UTILITY // \\
+///
+
+//
+
 .body
 {
   background-color:#eee
@@ -19,16 +27,11 @@
   background-color:#99aeff;
   display:inline-block;
   background-size:cover;
-  position:absolute;
-  cursor:hover;
-  0% {
-		transform: scale(0, .025);
-	}
-	50% {
-		transform: scale(1, .025);
-	}
+  position:relative;
+  cursor:pointer;
+  transition: all 0.4s ease-out;
   box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.44);
-  overflow:none;
+  overflow:hidden;
   color:white;
   font-family: "Roboto Condensed", sans-serif;
   
@@ -41,12 +44,7 @@
   top:0;
   left:0;
   z-index:0;
-  0% {
-		transform: scale(0, .025);
-	}
-	50% {
-		transform: scale(1, .025);
-	}
+  transition: all 0.4s ease-out;
 }
 .tile .text
 {
@@ -78,23 +76,19 @@
   margin:20px 0 0 0;
   line-height: 25px;
 /*   opacity:0; */
- display:inline-block;
-  background-size:cover;
-  position:relative;
+  transform: translateX(-200px);
+  transition-delay: 0.2s;
 }
 .animate-text
 {
-  display:inline-block;
-  background-size:cover;
-  position:relative;
+  opacity:0;
+  transition: all 0.6s ease-in-out;
 }
 .tile:hover
 {
-display:inline-block;
-  background-size:cover;
-  position:relative;
-}
-
+/*   background-color:#99aeff; */
+box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
+  transform:scale(1.05);
 }
 .tile:hover img
 {
@@ -102,9 +96,8 @@ display:inline-block;
 }
 .tile:hover .animate-text
 {
- display:inline-block;
-  background-size:cover;
-  position:relative;
+  transform:translateX(0);
+  opacity:1;
 }
 .dots
 {
@@ -130,7 +123,8 @@ display:inline-block;
     border-radius: 50%;
     display:block;
   opacity:0;
-  transform:translateX(0);
+  transition: transform 0.4s ease-out, opacity 0.5s ease;
+  transform: translateY(30px);
  
 }
 
@@ -160,7 +154,8 @@ display:inline-block;
     width:400px;
 	   /* we want to absolute positioning the menu, checkbox and label element to its parent, so this is needed */
     position:relative;
-   
+  }
+  }
 }
  
 }
