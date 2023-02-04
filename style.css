@@ -105,18 +105,20 @@ section p {
 }
 
 /*Header Styles*/
-
 header {
-	position: absolute;
+	position: fixed;
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 35px 100px 0;
+	padding: 15px 100px 25px;
 	animation: 1s fadein 0.5s forwards;
 	opacity: 0;
-	color: #fff;
-	z-index: 2;
+	font-color: #ffffff;
+  background-color: #38383f;
+	z-index: 99999;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
 }
 
 @keyframes fadein {
@@ -132,10 +134,13 @@ header h2 {
 header nav {
 	display: flex;
 	margin-right: -15px;
+ 
+  
 }
 
 header nav li {
 	margin: 0 15px;
+  
 }
 
 @media (max-width: 800px) {
