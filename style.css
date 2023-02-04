@@ -1,3 +1,8 @@
+/*font styles*/
+h2 { font-family: Amatic SC; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: Amatic SC; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: Amatic SC; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: Amatic SC; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: Amatic SC; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5667px; }
+
+
+
 /*General Styles*/
 
 * {
@@ -7,14 +12,17 @@
 }
 
 html {
-	font-size: 16px;
-	font-family: "Raleway", sans-serif;
+	font-size: 17px;
+	font-family: 'Roboto', sans-serif;
 	color: #555;
 }
+
 
 ul,
 nav {
 	list-style: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;  
 }
 
 a {
@@ -59,6 +67,7 @@ section:not(.hero):nth-child(even) {
 	justify-content: center;
 }
 
+  
 hr {
 	width: 250px;
 	height: 3px;
@@ -68,19 +77,27 @@ hr {
 }
 
 .image-1 {
-	background-image: url("https://images.unsplash.com/photo-1505852903341-fc8d3db10436?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1600&h=900&fit=crop&s=e2f72e62d5f4f04256dd9305d5f51f3c");
+	background-image: url("https://images.unsplash.com/photo-1464054313797-e27fb58e90a9?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=996&q=80");
 }
 
 .image-2 {
-	background-image: url("https://images.unsplash.com/photo-1475483768296-6163e08872a1?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1600&h=900&fit=crop&s=20b3b1c3caef8c619ac3c75c07a7eafb");
+	background-image: url("https://images.unsplash.com/photo-1458668383970-8ddd3927deed?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1004&q=80");
+  min-height:100%;
+  background:linear-gradient(0deg, rgba(0, 0, 0, 509), rgba(0, 0, 150, 0.3)), url(https://images.unsplash.com/photo-1458668383970-8ddd3927deed?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1004&q=80);
+      background-size:cover;
 }
+
 
 .image-3 {
-	background-image: url("https://images.unsplash.com/photo-1490576198307-6ff97609a0cc?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1600&h=900&fit=crop&s=a0dbd168637edc2cfdac3715ab23d519");
+	background-image: url("https://images.unsplash.com/photo-1422393462206-207b0fbd8d6b?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80");
+  min-height:100%;
+  background:linear-gradient(0deg, rgba(0, 0, 0, 509), rgba(0, 0, 10, 0.3)), url(https://images.unsplash.com/photo-1422393462206-207b0fbd8d6b?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80);
+      background-size:cover;
 }
 
+
 .image-4 {
-	background-image: url("https://images.unsplash.com/photo-1505483531331-fc3cf89fd382?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1600&h=900&fit=crop&s=4f305bbc0243f81f1bf6053a62d76297");
+	background-image: url("https://images.unsplash.com/photo-1563460716037-460a3ad24ba9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80");
 }
 
 section h3.title {
@@ -105,18 +122,20 @@ section p {
 }
 
 /*Header Styles*/
-
 header {
-	position: absolute;
+	position: fixed;
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 35px 100px 0;
+	padding: 15px 100px 25px;
 	animation: 1s fadein 0.5s forwards;
 	opacity: 0;
-	color: #fff;
-	z-index: 2;
+	font-color: #ffffff;
+  background-color: #38383f;
+	z-index: 99999;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
 }
 
 @keyframes fadein {
@@ -132,10 +151,13 @@ header h2 {
 header nav {
 	display: flex;
 	margin-right: -15px;
+ 
+  
 }
 
 header nav li {
 	margin: 0 15px;
+  
 }
 
 @media (max-width: 800px) {
@@ -165,10 +187,10 @@ header nav li {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-image: url("https://unsplash.com/photos/C6duwascOEA=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1600&h=900&fit=crop&s=2feeaf89ad55829f92c4bbc6ca8e83ce");
+	background-image: url("https://images.unsplash.com/photo-1505535162959-9bbcb4ab22d6?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1600&h=900&fit=crop&s=2feeaf89ad55829f92c4bbc6ca8e83ce");
 	background-size: cover;
 	z-index: -1;
-	
+	background-color: #80a3db;
 }
 
 .hero h1 {
@@ -221,13 +243,22 @@ header nav li {
 
 /*Destinations Section*/
 
+.destinations .grid li  {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+	opacity: 100%;
+	color: #fff;
+ 
+}
+
+
 .destinations .grid li {
 	height: 350px;
 	padding: 20px;
 	background-clip: content-box;
 	background-size: cover;
 	background-position: center;
-}
+  }
 
 .destinations .grid li.small {
 	flex-basis: 30%;
@@ -363,162 +394,4 @@ footer p {
 	footer ul li {
 		margin: 0 8px;
 	}
-}
-
-
-
-	
-///
-
-//
-
-.body
-{
-  background-color:#eee
-}
-.wrap
-{
-  margin:50px auto 0 auto;
-  width:100%;
-  display:flex;
-  align-items:space-around;
-  max-width:1200px;
-}
-.tile
-{
-  width:380px;
-  height:380px;
-  margin:10px;
-  background-color:#99aeff;
-  display:inline-block;
-  background-size:cover;
-  position:relative;
-  cursor:pointer;
-  transition: all 0.4s ease-out;
-  box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.44);
-  overflow:hidden;
-  color:white;
-  font-family: "Roboto Condensed", sans-serif;
-  
-}
-.tile img
-{
-  height:100%;
-  width:100%;
-  position:absolute;
-  top:0;
-  left:0;
-  z-index:0;
-  transition: all 0.4s ease-out;
-}
-.tile .text
-{
-/*   z-index:99; */
-  position:absolute;
-  padding:30px;
-  height:calc(100% - 60px);
-}
-.tile h1
-{
- 
-  font-weight:300;
-  margin:0;
-  text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
-}
-.tile h2
-{
-  font-weight:100;
-  margin:20px 0 0 0;
-  font-style:italic;
-   transform: translateX(200px);
-}
-
-
-		
-.tile p
-{
-  font-weight:300;
-  margin:20px 0 0 0;
-  line-height: 25px;
-/*   opacity:0; */
-  transform: translateX(-200px);
-  transition-delay: 0.2s;
-}
-.animate-text
-{
-  opacity:0;
-  transition: all 0.6s ease-in-out;
-}
-.tile:hover
-{
-/*   background-color:#99aeff; */
-box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
-  transform:scale(1.05);
-}
-.tile:hover img
-{
-  opacity: 0.2;
-}
-.tile:hover .animate-text
-{
-  transform:translateX(0);
-  opacity:1;
-}
-.dots
-{
-  position:absolute;
-  bottom:20px;
-  right:30px;
-  margin: 0 auto;
-  width:30px;
-  height:30px;
-  color:currentColor;
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-  justify-content:space-around;
-  
-}
-
-.dots span
-{
-    width: 5px;
-    height:5px;
-    background-color: currentColor;
-    border-radius: 50%;
-    display:block;
-  opacity:0;
-  transition: transform 0.4s ease-out, opacity 0.5s ease;
-  transform: translateY(30px);
- 
-}
-
-.tile:hover span
-{
-  opacity:1;
-  transform:translateY(0px);
-}
-
-.dots span:nth-child(1)
-{
-   transition-delay: 0.05s;
-}
-.dots span:nth-child(2)
-{
-   transition-delay: 0.1s;
-}
-.dots span:nth-child(3)
-{
-   transition-delay: 0.15s;
-}
-
-
-@media (max-width: 1000px) {
-  .wrap {
-   flex-direction: column;
-    width:400px;
-	   /* we want to absolute positioning the menu, checkbox and label element to its parent, so this is needed */
-    position:relative;
-  }
-  }
 }
