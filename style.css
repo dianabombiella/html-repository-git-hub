@@ -1,21 +1,13 @@
 
 
 /*General Styles*/
-.ccsticky-nav ul {
-padding: 20px;
-margin: 0 auto;
-list-style: none;
-text-align: center;
-}
+/*font styles*/
+h2 { font-family: Amatic SC; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: Amatic SC; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: Amatic SC; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: Amatic SC; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: Amatic SC; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5667px; }
 
-.ccsticky-nav ul li {
-display: inline-block;
-margin: 0 10px;
-}
 * {
 	margin: 0;
 	padding: 0;
-	box-sizing: none;
+	box-sizing: border-box;
 }
 
 html {
@@ -117,18 +109,20 @@ section p {
 }
 
 /*Header Styles*/
-
 header {
-	position: absolute;
+	position: fixed;
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 35px 100px 0;
+	padding: 15px 100px 25px;
 	animation: 1s fadein 0.5s forwards;
 	opacity: 0;
 	color: #fff;
-	z-index: 2;
+  background-color: #38383f;
+	z-index: 99999;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
 }
 
 @keyframes fadein {
