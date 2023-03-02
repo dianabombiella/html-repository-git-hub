@@ -52,7 +52,7 @@ section {
 }
 
 section:not(.hero):nth-child(even) {
-	background-color: #E5E4E2;
+	background-color: #f5f5f5;
 }
 
 .grid {
@@ -387,7 +387,7 @@ footer p {
 
 .body
 {
-  background-color: #E5E4E2;
+  background-color:#eee
 }
 .wrap
 {
