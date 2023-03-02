@@ -248,6 +248,14 @@ header nav li {
 
 /*Destinations Section*/
 
+.destinations {
+ 
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 20px 0;
+}
+
 .destinations .grid li {
 	height: 350px;
 	padding: 20px;
