@@ -417,8 +417,8 @@ footer p {
   top:0;
   left:0;
   z-index:0;
-  filter: contrast (20%);
 }
+
 .tile .text
 {
 /*   z-index:99; */
