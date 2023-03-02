@@ -390,14 +390,17 @@ footer p {
 {
   background-color: #E5E4E2;
 }
+
 .wrap
 {
-  margin:50px auto 0 auto;
+  mmargin:50px auto 0 auto;
   width:100%;
   display:flex;
   align-items:space-around;
-  max-width:1280px;
+  max-width:1200px;
 }
+
+
 .tile
 {
   width:380px;
