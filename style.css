@@ -107,6 +107,19 @@ section p {
 }
 
 @media (max-width: 100%) {
+  section p {
+		max-width: 100%;
+	line-height: 2;
+	padding: 0 20px;
+	margin-bottom: 30px;
+	text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+	}
+}
+
+
+@media (max-width: 100%) {
 	section {
 		padding: 50px 20px;
 	}
