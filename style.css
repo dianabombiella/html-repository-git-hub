@@ -1,3 +1,4 @@
+  
 /*General Styles*/
 
 * {
@@ -105,17 +106,6 @@ section p {
   font-family: "Raleway", sans-serif;
 }
 
-@media (max-width: 100%) {
-  section p {
-		max-width: 100%;
-	line-height: 2;
-	padding: 0 20px;
-	margin-bottom: 30px;
-	text-align: center;
-  font-family: "Raleway", sans-serif;
-}
-	}
-}
 
 
 @media (max-width: 100%) {
@@ -247,7 +237,6 @@ header nav li {
 }
 
 /*Destinations Section*/
-
 .destinations {
  
 	display: flex;
@@ -255,7 +244,7 @@ header nav li {
 	justify-content: space-around;
 	padding: 20px 0;
 }
-
+}
 .destinations .grid li {
 	height: 350px;
 	padding: 20px;
@@ -411,14 +400,18 @@ footer p {
 {
   background-color: #E5E4E2;
 }
+
+
 .wrap
 {
   margin:50px auto 0 auto;
   width:100%;
   display:flex;
   align-items:space-around;
-  max-width:100%;
+  max-width:1200px;
 }
+
+
 .tile
 {
   width:380px;
@@ -433,7 +426,7 @@ footer p {
   box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.44);
   overflow:hidden;
   color:white;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family:'Roboto';
   
 }
 .tile img
@@ -443,9 +436,10 @@ footer p {
   position:absolute;
   top:0;
   left:0;
-  z-index:0;
+  z-index:99;
   transition: all 0.4s ease-out;
 }
+
 .tile .text
 {
 /*   z-index:99; */
