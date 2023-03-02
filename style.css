@@ -397,7 +397,7 @@ footer p {
   width:100%;
   display:flex;
   align-items:space-around;
-  max-width:1200px;
+  max-width:1080px;
 }
 
 
@@ -538,7 +538,7 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
 }
 
 
-@media (max-width: 1200px) {
+@media (max-width: 1080px) {
   .wrap {
    flex-direction: column;
     width:100%;
