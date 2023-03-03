@@ -236,6 +236,12 @@ header nav li {
 
 /*Destinations Section*/
 
+
+.destinations {
+  background-color: #000000;
+}
+
+
 .destinations .grid li {
 	height: 350px;
 	padding: 20px;
