@@ -49,7 +49,7 @@ section {
 }
 
 section:not(.hero):nth-child(even) {
-	background-color: #E5E4E2;
+	background-color: #000000;
 }
 
 .grid {
