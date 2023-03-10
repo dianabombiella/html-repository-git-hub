@@ -119,7 +119,7 @@ section p {
 	justify-content: center;
 	text-align: center;
 	min-height: 100%;
-	color: #FAEBD7;
+	
 }
 
 .hero .background-image {
@@ -133,6 +133,7 @@ section p {
 	z-index: -1;
 	background-color: #80a3db;
 }
+
 
 @keyframes fadein {
 	100% {
