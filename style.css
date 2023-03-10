@@ -103,7 +103,8 @@ section p {
 	padding: 0 20px;
 	margin-bottom: 30px;
 	text-align: center;
-  font-family: "Raleway", sans-serif;
+  	font-family: "Raleway", sans-serif;
+	font-color: F0F8FF;
 }
 
 @media (max-width: 800px) {
