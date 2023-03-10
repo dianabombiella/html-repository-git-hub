@@ -172,14 +172,18 @@ header nav li {
 	}
 }
 
+
+
 /*Hero Styles*/
 
 .hero {
 	position: relative;
 	justify-content: center;
 	text-align: center;
-	min-height: 100%;
+	min-height: 100px;
+	color: #fff;
 	
+}
 }
 
 .hero .background-image {
