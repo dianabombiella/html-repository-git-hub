@@ -240,7 +240,7 @@ header {
 	animation: 1s fadein 0.5s forwards;
 	opacity: ;
 	font-color: #000000;
-  background-color: #000000;
+  background-color: transparent;
 	z-index: 99999;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 22px;
