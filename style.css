@@ -305,10 +305,16 @@ header nav li {
 }
 
 .hero h1 {
-	font: 72px "Amatic SC", sans-serif;
+  	font-family: "Montserrat", sans-serif;
+  	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 4px;
+	font-weight: 600;
+	transition-delay: 0.2s;
 	text-shadow: 2px 2px rgba(0, 0, 0, 0.3);
 	margin-bottom: 15px;
 }
+
 
 .hero h3 {
 	font: 28px "Raleway", sans-serif;
