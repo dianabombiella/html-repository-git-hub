@@ -412,6 +412,14 @@ header nav li {
 
 /*Packages Section*/
 
+	
+.packages {
+        width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+	
 .packages .grid li {
 	padding: 50px;
 	flex-basis: 50%;
