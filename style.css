@@ -369,18 +369,7 @@ header nav li {
 
 /*Destinations Section*/
 
-.destinations h1 {
- font-family: "Montserrat", sans-serif;
- text-transform: uppercase;
- font-size: 14px;
- letter-spacing: 4px;
- font-weight: 600;
- transition-delay: 0.2s;
-    margin: 0;
-}
-
-
-.destinations .grid li {
+.destinations .grid li  {
 	height: 350px;
 	padding: 20px;
 	background-clip: content-box;
@@ -394,6 +383,16 @@ header nav li {
 
 .destinations .grid li.large {
 	flex-basis: 70%;
+}
+
+.destinations h1 {
+ font-family: "Montserrat", sans-serif;
+ text-transform: uppercase;
+ font-size: 14px;
+ letter-spacing: 4px;
+ font-weight: 600;
+ transition-delay: 0.2s;
+    margin: 0;
 }
 
 @media (max-width: 1100px) {
@@ -411,14 +410,7 @@ header nav li {
 
 
 /*Packages Section*/
-
 	
-.packages {
-        width: 100%;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-}
 	
 .packages .grid li {
 	padding: 50px;
@@ -441,7 +433,7 @@ header nav li {
 		flex-basis: 100%;
 		padding: 20px;
 	}
-}
+
 	
 
 /*Testimonials Section*/
