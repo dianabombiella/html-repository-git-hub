@@ -428,11 +428,32 @@ header nav li {
 }
 
 
-@media (max-width: 800px) {
-	.packages .grid li {
+.packages .grid li {
+	padding: 50px;
+	flex-basis: 50%;
+	text-align: center;
+}
+
+.packages .grid li i {
+	color: #e07e7b;
+}
+
+.packages .grid li h4 {
+	font-size: 30px;
+	margin: 25px 0;
+}
+
+@media (max-width: 1080px) {
+	.packages {
 		flex-basis: 100%;
 		padding: 20px;
+    flex-direction: column;
+   align-items:center;
+    width:100%;
+	   /* we want to absolute positioning the menu, checkbox and label element to its parent, so this is needed */
+    position: relative;
 	}
+}
 
 	
 
