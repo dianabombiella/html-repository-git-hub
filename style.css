@@ -157,6 +157,8 @@ section:not(.hero):nth-child(even) {
 }
 
 
+
+
 .tile
 {
   width:380px;
@@ -425,7 +427,7 @@ header nav li {
 }
 
 @media (max-width: 1080px) {
-	.packages .grid li {
+	.packages {
 		flex-basis: 100%;
 		padding: 20px;
     flex-direction: column;
@@ -533,7 +535,7 @@ footer p {
 }
 
 @media (max-width: 1080px) {
-  .html  {
+  .html .grid {
    flex-direction: column;
    align-items:center;
     width:100%;
