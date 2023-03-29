@@ -26,7 +26,7 @@ body {
   
 		}
 
-.nav-list li {
+.nav-list li, ul {
   list-style: none;
   font-family: "Montserrat",    sans-serif;
   font-size: 17px; 
