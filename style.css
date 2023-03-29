@@ -530,7 +530,8 @@ footer p {
 
 @media (max-width: 100%) {
   .nav-list li {
-  font-size: 7px; 
+  font-size: 7px;
+  align-items:center;	  
  }
 }
 
