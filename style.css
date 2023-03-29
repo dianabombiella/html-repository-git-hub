@@ -192,14 +192,14 @@ hr {
 }
 
 .image-2 {
-	background-image: url(/images/photo.jpg);
+	background-image: url(/images/photo-1458.jpg);
   background:linear-gradient(0deg, rgba(0, 0, 0, 509), rgba(0, 0, 150, 0.3)), url(https://images.unsplash.com/photo-1458668383970-8ddd3927deed?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1004&q=80);
       background-size:cover;
 }
 
 
 .image-3 {
-	background-image: url(/images/photo.jpg);
+	background-image: url(/images/photo-1458.jpg);
   min-height:100%;
   background:linear-gradient(0deg, rgba(0, 0, 0, 509), rgba(0, 0, 10, 0.3)), url(https://images.unsplash.com/photo-1422393462206-207b0fbd8d6b?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80);
       background-size:cover;
