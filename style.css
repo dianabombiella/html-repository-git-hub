@@ -529,12 +529,22 @@ footer p {
 }
 
 @media (max-width: 100%) {
-  .nav-list li {
+  .nav-list , .nav , li {
   font-size: 7px;
-  align-items:center;	  
+  align-items:center;
+  adding: 20px 50px;  
+  flex-direction: column;
+  width:100%;
+	   /* we want to absolute positioning the menu, checkbox and label element to its parent, so this is needed */
+  position:relative;
+	  
+	  
  }
 }
 
+	
+	
+	
 @media (max-width: 1080px) {
   .html .grid {
    flex-direction: column;
