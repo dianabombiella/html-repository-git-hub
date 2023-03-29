@@ -29,20 +29,12 @@ body {
 .nav-list li, ul {
   list-style: none;
   font-family: "Montserrat",    sans-serif;
-  font-size: 17px; 
+  font-size: 13px; 
   text-transform: uppercase;
   
   
 }
 
-@media (max-width: 100%) {
-  .nav-list li, ul {
-   list-style: none;
-  font-family: "Montserrat",    sans-serif;
-  font-size: 7px; 
-  text-transform: uppercase;
-     
- }
 
 
 ul,
