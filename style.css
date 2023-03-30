@@ -225,17 +225,13 @@ section h3.title {
 	text-align: center;
 }
 
+
 section p {
-	section p {
 	max-width: 775px;
 	line-height: 2;
 	padding: 0 20px;
-	margin-bottom: 2px;
-        margin-top: 308px;
-        color: #212120;
-	text-align: justify;
-       
-	
+	margin-bottom: 30px;
+	text-align: center;
 }
 
 
