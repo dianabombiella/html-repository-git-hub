@@ -7,6 +7,14 @@
 }
 
 
+.grid {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;  
+}
+
+
 /*Header Styles*/
 header {
 	position: fixed;
