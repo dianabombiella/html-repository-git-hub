@@ -14,12 +14,10 @@
 	justify-content: center;  
 }
 
-.imagefit {
   
 }
 
-.image-title {
-	background-image: url(/images/title-proto.jpg);
+.imagefit {
 	width: 100px; /* takes the 100 % width of its container (.imagefit div)*/
   	height: 100%; /* takes the 100 % height of its container (.imagefit div)*/
 	display: flex;
