@@ -53,6 +53,8 @@ header {
 
 
 .imagefit {
+	position: relative;
+	justify-content: center;
 	padding-top: 100px;
 	padding-left: 0px;
 	width: 100%;
