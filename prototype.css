@@ -57,7 +57,16 @@ header {
 }
 
 
+/*Destinations Section*/
+.destinations .grid li.bodytemplate {
+	flex-basis: 70%;
+}
 
+
+.image-title {
+	background-image: images/title-proto.jpg;
+	
+}
 
 
 .imagefit {
