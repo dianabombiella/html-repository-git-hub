@@ -1,14 +1,55 @@
-.image-layout {        
-  width: 1280px;
-  height: 100%;
-  border: 3px solid black;
+/*Header Styles*/
+header {
+	position: fixed;
+	width: 1280px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 100px 25px;
+	animation: 1s fadein 0.5s forwards;
+	opacity: ;
+	font-color: #000000;
+  background-color: transparent;
+	z-index: 99999;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 22px;
+  border-bottom: 4px solid rgba(44, 45, 42, 0.25);
 }
 
-imagefit {
-  width: 1280px; /* takes the 100 % width of its container (.image-layout div)*/
-  height: 100%; /* takes the 100 % height of its container (.image-layout)*/
+
+/*Hero Styles*/
+
+.hero {
+	position: relative;
+	justify-content: center;
+	text-align: center;
+	min-height: 100px;
+	color: #f3f4ea;
+}
+
+.hero .background-image {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 1280px;
+	height: 100%;
+	background-image: url("https://images.unsplash.com/photo-1622737133809-d95047b9e673?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80&crop=entropy&cs=tinysrgb&w=1600&h=900&fit=crop&s=2feeaf89ad55829f92c4bbc6ca8e83ce");
+	background-size: cover;
+	z-index: -1;
+	background-color: #f3f4ea;
+}
+
+
+
+
+
+.imagefit {
+  width: 1280px; /* takes the 100 % width of its container (.imagefit div)*/
+  height: 100%; /* takes the 100 % height of its container (.imagefit div)*/
   object-fit: cover;
 }
+
+
 
 
 
