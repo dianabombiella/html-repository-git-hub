@@ -64,7 +64,7 @@ header {
 
 /*Destinations Section*/
 .destinations .grid li.bodytemplate {
-	flex-basis: 70%;
+	flex-basis: 100%;
 }
 
 
