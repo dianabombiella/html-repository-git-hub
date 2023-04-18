@@ -1,7 +1,7 @@
 /*Header Styles*/
 header {
 	position: fixed;
-	width: 1280px;
+	width: 100%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -31,7 +31,7 @@ header {
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 1280px;
+	width: 100%;
 	height: 100%;
 	background-image: url("https://images.unsplash.com/photo-1622737133809-d95047b9e673?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80&crop=entropy&cs=tinysrgb&w=1600&h=900&fit=crop&s=2feeaf89ad55829f92c4bbc6ca8e83ce");
 	background-size: cover;
@@ -44,7 +44,7 @@ header {
 
 
 .imagefit {
-  width: 1280px; /* takes the 100 % width of its container (.imagefit div)*/
+  width: 100px; /* takes the 100 % width of its container (.imagefit div)*/
   height: 100%; /* takes the 100 % height of its container (.imagefit div)*/
   object-fit: cover;
 }
