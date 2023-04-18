@@ -1,9 +1,9 @@
 .image-layout {
-        width:
-        height:
-        border:
-        padding-left:
-        padding-right:
-        padding-top:
-        padding-bottom:
+        width: 1080px;
+        height: 1080px;
+        border: 20px solid black;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
 }
