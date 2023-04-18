@@ -1,11 +1,14 @@
 .image-layout {        
-  width: 100%;
+  width: 1280px;
   height: 100%;
   border: 3px solid black;
 }
 
 imagefit {
-  width: 100%; /* takes the 100 % width of its container (.image-layout div)*/
+  width: 1280px; /* takes the 100 % width of its container (.image-layout div)*/
   height: 100%; /* takes the 100 % height of its container (.image-layout)*/
   object-fit: cover;
 }
+
+
+
