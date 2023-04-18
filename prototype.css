@@ -64,7 +64,7 @@ header {
 
 
 .image-title {
-	background-image: images/title-proto.jpg;
+	background-image: "images/title-proto.jpg";
 	
 }
 
