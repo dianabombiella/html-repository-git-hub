@@ -7,4 +7,5 @@
 img {
   width: 100%; /* takes the 100 % width of its container (.image-layout div)*/
   height: 100%; /* takes the 100 % height of its container (.image-layout)*/
+  object-fit: cover;
 }
