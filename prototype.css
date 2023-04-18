@@ -83,4 +83,7 @@ header {
 	box-sizing: border-box;
 }
 
-
+@media
+	.imagefit {
+	max-width: 1080px
+}
