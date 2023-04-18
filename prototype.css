@@ -67,7 +67,7 @@ header {
 
 
 @media (max-width: 1080px) {
-  .html .grid {
+  .html .grid .imagefit {
    flex-direction: column;
    align-items:center;
     width:100%;
@@ -83,7 +83,4 @@ header {
 	box-sizing: border-box;
 }
 
-@media
-	.imagefit {
-	width: 300px;
-}
+
