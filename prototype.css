@@ -16,12 +16,7 @@
 
   
 }
-
-.imagefit {
-	width: 100px; /* takes the 100 % width of its container (.imagefit div)*/
-  	height: 100%; /* takes the 100 % height of its container (.imagefit div)*/
-	justify-content: center; 		
-}
+	
 
 
 /*Header Styles*/
@@ -89,15 +84,20 @@ header {
 
 
 @media (max-width: 1080px) {
-  .html .grid .imagefit {
+  .html .grid .img {
    flex-direction: column;
    align-items:center;
     width:100%;
 	   /* we want to absolute positioning the menu, checkbox and label element to its parent, so this is needed */
     position:relative;
   }
-  }
-}
+	
+	.img {
+	flex-direction: column;
+	align-items:center;
+	width: 20%;
+	}
+
 @media 
 * {
 	margin: 0;
