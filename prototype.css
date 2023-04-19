@@ -67,7 +67,13 @@ header {
 }
 
 
-      
+ 	styledimg {	
+background-image: url(/images/title-proto.jpg);
+background-repeat: no-repeat;
+width: 10px;
+height: 20px;
+
+}     
 
 
 
@@ -93,4 +99,5 @@ header {
 	box-sizing: border-box;
 }
 
+	
 
