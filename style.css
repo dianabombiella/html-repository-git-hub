@@ -522,14 +522,14 @@ header nav li {
 }
 
 
-	@media (max-width: 50%) {
-	.img src {
-	display: flex;
+@media only screen and (max-width: 60%){ //some value
+   .contact .images   {
+     mdisplay: flex;
 	align-items: center;
 	justify-content: center;
 	flex-wrap: wrap;
-	
-}
+	width: 60%;
+   }
 		
 	}
 
