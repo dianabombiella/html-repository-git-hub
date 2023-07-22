@@ -522,7 +522,7 @@ header nav li {
 }
 
 
-	@media (max-width: 100%) {
+	@media (max-width: 50%) {
 	.img src {
 	display: flex;
 	align-items: center;
