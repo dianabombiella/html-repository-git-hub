@@ -492,7 +492,7 @@ header nav li {
 
 /*Contact Section*/
 
-.contact form {
+.contact form .img src {
 	display: flex;
 	align-items: center;
 	justify-content: center;
