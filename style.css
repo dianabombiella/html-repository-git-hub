@@ -500,13 +500,7 @@ header nav li {
 	width: 60%;
 }
 
-.img src {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-wrap: wrap;
-	width: 70px;
-}
+
 
 .contact form .btn {
 	padding: 18px 42px;
@@ -526,6 +520,18 @@ header nav li {
 		margin: 0 0 20px 0;
 	}
 }
+
+
+	@media (max-width: 100%) {
+	.img src {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	
+}
+		
+	}
 
 /*Footer Section*/
 
