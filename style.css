@@ -584,11 +584,10 @@ footer p {
 }
 
 #image img {
-
-	
-	
 	align-items: center;
 	display: inline-block;
+	max-width: 20%;
+        height: auto;
 }
 	
 @media 
