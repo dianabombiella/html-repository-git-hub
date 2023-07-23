@@ -523,16 +523,7 @@ header nav li {
 }
 
 
-@media (max-width: 60%){ //some value
-.img {
- height: 350px;
-	padding: 20px;
-	background-clip: content-box;
-	background-size: cover;
-	background-position: center;
-	
-}
-   }
+
 
 
 
