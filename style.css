@@ -156,6 +156,14 @@ section:not(.hero):nth-child(even) {
 }
 
 
+.img {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;  
+
+	
+}
 
 
 .tile
@@ -515,9 +523,8 @@ header nav li {
 }
 
 
-@media only screen and (max-width: 60%){ //some value
-.contact img
-	{
+@media (max-width: 60%){ //some value
+.img {
   mdisplay: flex;
 	align-items: center;
 	justify-content: center;
