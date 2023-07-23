@@ -567,7 +567,7 @@ footer p {
 	
 	
 @media (max-width: 1080px) {
-  .html .grid {
+  .html .grid .img {
    flex-direction: column;
    align-items:center;
     width:100%;
@@ -575,6 +575,9 @@ footer p {
     position:relative;
   }
   }
+
+	@media (mas-width: 30%)
+	
 	
 @media 
 * {
