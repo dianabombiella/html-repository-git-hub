@@ -577,7 +577,7 @@ footer p {
   }
 
 	@media (mas-width: 30%) {
-		.img {
+		.img * {
 			display: flex;
 	align-items: center;
 	justify-content: space-around;
