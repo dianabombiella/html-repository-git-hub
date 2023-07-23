@@ -576,16 +576,7 @@ footer p {
   }
   }
 
-	@media (mas-width: 20px) {
-		.img  {
-			display: 20px;
-	align-items: center;
-	justify-content: inline;
-	background-color:;
-	color: #fff;
-	padding: 20px 0;
-}
-	}  	
+	 	
 	
 @media 
 * {
