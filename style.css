@@ -576,9 +576,9 @@ footer p {
   }
   }
 
-	@media (mas-width: 30%) {
+	@media (mas-width: 20px) {
 		.img  {
-			display: none;
+			display: 20px;
 	align-items: center;
 	justify-content: inline;
 	background-color:;
