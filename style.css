@@ -587,9 +587,8 @@ footer p {
 
 	display: inline-block;
 	 justify-content: center;	
-    vertical-align: top;
-    max-width: 50%;
-    height: auto;
+   max-width: auto;
+   height: auto;
 }
 	
 @media 
