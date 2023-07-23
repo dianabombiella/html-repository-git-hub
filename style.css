@@ -576,8 +576,16 @@ footer p {
   }
   }
 
-	@media (mas-width: 30%)
-	
+	@media (mas-width: 30%) {
+		.img {
+			display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background-color: #555;
+	color: #fff;
+	padding: 20px 0;
+}
+	}  	
 	
 @media 
 * {
