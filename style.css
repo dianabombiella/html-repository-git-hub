@@ -582,6 +582,10 @@ footer p {
     position:relative;
   }
   }
+	@media screen and (max-width: 30%) {
+  	.img .src {
+    	Display: none;
+	}
 }
 @media 
 * {
