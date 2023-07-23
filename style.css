@@ -578,13 +578,18 @@ footer p {
 
 	@media all and (max-width: 1024px) {
  
-  #img {
-    display: inline-block;
+ #image {
+   width: 48px;
+   height: 48px;
+}
+
+#image img {
+
+	display: inline-block;
     vertical-align: top;
     max-width: 20%;
     height: auto;
-  }
-} 	
+}
 	
 @media 
 * {
@@ -593,3 +598,4 @@ footer p {
 	box-sizing: border-box;
 }
 
+	
