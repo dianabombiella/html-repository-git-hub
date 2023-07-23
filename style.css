@@ -585,10 +585,9 @@ footer p {
 
 #image img {
 
-	display: inline-block;
-	 justify-content: center;	
-   max-width: auto;
-   height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 	
 @media 
