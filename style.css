@@ -586,7 +586,7 @@ footer p {
 #image img {
 	 display: inline-block;
     vertical-align: top;
-    max-width: 5%;
+    max-width: 200%;
     height: auto;
 }
 	
