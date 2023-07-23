@@ -515,18 +515,18 @@ header nav li {
 }
 
 
-
-
 @media only screen and (max-width: 60%){ //some value
-   .contact .images   {
-     mdisplay: flex;
+.contact img
+	{
+  mdisplay: flex;
 	align-items: center;
 	justify-content: center;
 	flex-wrap: wrap;
 	width: 60%;
    }
-		
-	}
+
+
+
 
 /*Footer Section*/
 
