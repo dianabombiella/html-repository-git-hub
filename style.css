@@ -577,11 +577,11 @@ footer p {
   }
 
 	@media (mas-width: 30%) {
-		.img * {
-			display: flex;
+		.img  {
+			display: none;
 	align-items: center;
-	justify-content: space-around;
-	background-color: #555;
+	justify-content: inline;
+	background-color:;
 	color: #fff;
 	padding: 20px 0;
 }
