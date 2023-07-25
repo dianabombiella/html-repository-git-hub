@@ -567,7 +567,7 @@ footer p {
 	
 	
 @media (max-width: 1080px) {
-  .html .grid .img {
+  .html .grid  {
    flex-direction: column;
    align-items:center;
     width:100%;
@@ -576,18 +576,6 @@ footer p {
   }
   }
 
-	@media all and (max-width: 1024px) {
- 
- #image {
-   width: 48px;
-   height: 48px;
-}
-
-#image img {
-	 display: inline-block;
-    vertical-align: top;
-    max-width: 80%;
-    height: auto;
 	
 }
 	
