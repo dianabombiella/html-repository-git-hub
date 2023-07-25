@@ -517,12 +517,13 @@ header nav li {
 
 /*Body*/
 	.box {
-	width: 100px;
+	width: 1080px;
 	height: auto; 
+	border: 5px dashed #f79239;
 	}
 
 	img {
-	width: 25px;
+	width: 200px;
 	height: auto;
 	}
 		
