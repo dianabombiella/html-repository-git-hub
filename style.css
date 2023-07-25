@@ -515,6 +515,17 @@ header nav li {
 	flex: 1;
 }
 
+/*Body*/
+	.box {
+	width: 100px;
+	height: auto; 
+	}
+
+	img {
+	width: 25px;
+	height: auto;
+	}
+		
 
 
 
