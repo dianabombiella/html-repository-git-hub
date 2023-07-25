@@ -12,6 +12,12 @@
 	box-sizing: border-box;
 }
 
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+
 body {
   font-family: var(--body-font);
   color: var(--body-color);
@@ -516,6 +522,7 @@ header nav li {
 }
 
 /*Body*/
+	
 	.box {
 	width: 1080px;
 	height: auto; 
