@@ -12,6 +12,29 @@
 }
 
 
+.nav-title {
+ font-family: "Montserrat",    sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+  
+		}
+
+.nav-list li, ul {
+  list-style: none;
+  font-family: "Montserrat",    sans-serif;
+  font-size: 13px; 
+  text-transform: uppercase;
+  
+  
+}
+
+
+
+ul,
+nav {
+	  
+}
+
 img {
   width: 30%;
   float: left;
