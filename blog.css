@@ -22,7 +22,7 @@ body {
   font-family: var(--body-font);
   color: var(--body-color);
   justify-content: center;	
-  background-color: #f3f4ea;
+  background-color: #000000;
 }
 
 .nav-title {
@@ -310,7 +310,7 @@ header nav li {
 	justify-content: center;
 	text-align: center;
 	min-height: 100px;
-	color: #000000;
+	color: #f3f4ea;
 }
 
 .hero .background-image {
