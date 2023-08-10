@@ -101,6 +101,22 @@ h2 {
   text-transform: Uppercase;
 }
 
+
+@media (max-width: 1080px) {
+  .html .grid  {
+   flex-direction: column;
+   align-items:center;
+    width:100%;
+	   /* we want to absolute positioning the menu, checkbox and label element to its parent, so this is needed */
+    position:relative;
+  }
+  }
+
+	
+}
+
+
+
 @media 
 * {
 	margin: 0;
