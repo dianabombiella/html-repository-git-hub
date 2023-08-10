@@ -28,7 +28,8 @@ body {
 .nav-title {
  font-family: "Montserrat",    sans-serif;
 	font-weight: 400;
-	font-size: 13px;
+	font-size: 13px
+	font-color #000000;
   
 		}
 
@@ -36,7 +37,8 @@ body {
   list-style: none;
   font-family: "Montserrat",    sans-serif;
   font-size: 13px; 
-  text-transform: uppercase;
+  text-transform: uppercase
+  font-color #000000;
   
   
 }
