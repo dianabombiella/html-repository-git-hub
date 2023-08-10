@@ -22,7 +22,7 @@ body {
   font-family: var(--body-font);
   color: var(--body-color);
   justify-content: center;	
-  background-color: #000000;
+  background-color: #f3f4ea;
 }
 
 .nav-title {
